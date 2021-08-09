@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.main-header {
+  background-color: rgb(0, 41, 163);
+  height: 40em;
+}
+.navigation-bar {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-item ul {
+  list-style: none;
+  line-height: 130px;
+}
+.nav-item ul li {
+  display: inline-block;
+  margin-right: 35px;
+}
+.nav-item ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+/* nav button style here */
+.button {
+  display: flex;
+  align-items: center;
+  /* background-color: rgba(255, 6, 81, 0.918); */
+  background-image: linear-gradient(90deg, rgb(233, 0, 58), rgb(255, 86, 157));
+  padding: 10px 30px;
+  border-radius: 3px;
+  outline: none;
+  border-style: none;
+  transition: 0.7s;
+  cursor: pointer;
+}
+.button:hover {
+  /* background-color: rgba(50, 194, 112, 0.904); */
+  background-image: linear-gradient(
+    90deg,
+    rgb(0, 126, 230),
+    rgb(126, 214, 255)
+  );
+}
+.button img {
+  height: 22px;
+  margin-right: 10px;
+  /* transform: rotate(90deg); */
+  transition: 0.7s;
+}
+.button:hover img {
+  transform: rotate(90deg);
+}
+.button li {
+  list-style: none;
+}
+.button li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+/* end navigation style */
+.body-content {
+  max-width: 1180px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+.hlaf-width {
+  width: 40%;
+}
+.hlaf-width h1 {
+  margin-top: 50px;
+  font-size: 65px;
+  letter-spacing: 2px;
+  line-height: 80px;
+  font-weight: 700;
+  color: white;
+}
+.button-2 {
+  width: 130px;
+  height: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.arow {
+  margin-left: 15px;
+  color: white;
+  font-size: 15px;
+  transition: 0.7s;
+}
+.button-2:hover .arow {
+  transform: rotate(90deg);
+}
+.half-width-img {
+  width: 50%;
+}
+.half-width-img img {
+  transition: 0.76s ease-in-out;
+}
+.half-width-img img:hover {
+  transform: scale(1.1, 1.1);
+}
+.half-width-img img {
+  width: 90%;
+  margin-left: 150px;
+}
+
+/* all players section style here */
+.all-players {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  margin-top: 60px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 50px;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 60px;
+}
+.player {
+  background-color: rgb(255, 255, 255);
+  padding: 20px 20px;
+  box-shadow: 5px 5px 40px 5px rgb(212, 212, 212);
+  border-radius: 5px;
+}
+.player img {
+  width: 320px;
+}
+.player h2 {
+  color: rgb(71, 71, 71);
+  font-weight: 600;
+  margin-top: 18px;
+  margin-bottom: 15px;
+}
+.player p {
+  color: rgb(65, 65, 65);
+  letter-spacing: 0.6px;
+  line-height: 22px;
+  text-align: justify;
+}
+.player > p {
+  width: 300px;
+}
+
+/* All Highlights Copa America 2021 */
+.highlight {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.first-part {
+  width: 50%;
+  margin-right: 80px;
+}
+.first-part h1 {
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: rgb(61, 61, 61);
+  margin-top: 65px;
+  margin-bottom: 30px;
+}
+.first-part p {
+  color: rgb(92, 92, 92);
+  font-size: 20px;
+  line-height: 30px;
+}
+.second-part {
+  width: 50%;
+}
+.second-part img {
+  width: 98%;
+}
+
+/* Shopping Zone style here */
+.shopping-zone {
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+.shopping-zone h1 {
+  margin: 40px 0;
+  margin-top: 80px;
+  font-weight: 600;
+  color: rgb(95, 95, 95);
+  font-size: 28px;
+}
+.shopping-jerchy {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+}
+.details {
+  background-color: rgb(255, 255, 255);
+  padding: 15px 0;
+  border-radius: 5px;
+  box-shadow: 5px 5px 40px 5px rgb(212, 212, 212);
+}
+.details-1 {
+  display: grid;
+  justify-items: center;
+}
+.details-1 h2 {
+  font-size: 20px;
+  padding: 0 15px;
+  margin-top: 14px;
+  color: rgb(63, 63, 63);
+  font-weight: 600;
+}
+.details img {
+  width: 250px;
+}
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-top: 18px;
+}
+.price h2 {
+  font-size: 20px;
+  padding: 0 15px;
+}
+.price span {
+  color: red;
+  font-weight: 600;
+}
+.price a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 9px 18px;
+  background-image: linear-gradient(90deg, rgb(233, 0, 58), rgb(255, 86, 157));
+  border-radius: 5px;
+}
+/* discount section style here  */
+.copon-section {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  background-color: yellow;
+  height: 10em;
+  display: grid;
+  align-content: center;
+}
+.discount {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: center;
+}
+.hadding {
+  margin-right: 200px;
+}
+.hadding h1 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 56px;
+  width: 600px;
+  font-family: "Times New Roman", Times, serif;
+}
+.singup-button a {
+  color: white;
+  background-color: black;
+  padding: 14px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  box-shadow: 5px 5px 5px black;
+}
+.singup-button {
+  transition: 0.7s;
+}
+.singup-button:hover {
+  transform: translateY(-10px);
+}
+.singup-button span {
+  margin-left: 8px;
+}
+/* footer style here  */
+.logo {
+  display: grid;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.logo img {
+  width: 400px;
+}
+.icon {
+  display: grid;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.icon .icon-grop {
+  font-size: 30px;
+}
+.font-awesome {
+  padding: 10px;
+  margin: 0 3px;
+  color: rgb(94, 94, 94);
+  background-color: rgb(204, 204, 204);
+  border-radius: 10px;
+}
+.copy-right {
+  margin-top: 30px;
+  margin-left: 13px;
+}

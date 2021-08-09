@@ -1,0 +1,90 @@
+@media (max-width: 360px) {
+  /* navbar and  first section style here */
+  .main-header {
+    height: 51em;
+  }
+  .navigation-bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .body-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .button-2 {
+    margin-left: 10px;
+  }
+  .half-width-img {
+    width: 100%;
+  }
+  .half-width-img img {
+    width: 100%;
+    margin-left: 1px;
+    margin-top: 25px;
+  }
+  .hlaf-width {
+    width: 100%;
+  }
+  .hlaf-width h1 {
+    margin-top: 20px;
+    font-size: 43px;
+    padding: 10px;
+  }
+  .nav-item ul {
+    line-height: 70px;
+  }
+  .nav-item {
+    margin-left: 10px;
+  }
+
+  /* players responsive style here  */
+  .all-players {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* hilight section responsive style here  */
+  .highlight {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .first-part {
+    padding: 10px;
+    width: 100%;
+    margin-right: 0;
+  }
+  .second-part {
+    width: 97%;
+    padding: 10px;
+  }
+
+  /* shoppinfzone style here  */
+  .shopping-jerchy {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 20px;
+  }
+  .discount {
+    display: flex;
+    align-items: initial;
+    flex-direction: column;
+  }
+  .hadding {
+    margin-right: 0;
+  }
+  .singup-button {
+    transition: 0.7s;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  .hadding h1 {
+    font-size: 32px;
+    line-height: 55px;
+    width: 360px;
+    padding: 10px;
+  }
+  .logo img {
+    width: 330px;
+  }
+}
